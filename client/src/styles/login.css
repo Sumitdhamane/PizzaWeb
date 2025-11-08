@@ -1,0 +1,28 @@
+.pw-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+.pw-form {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+.pw-form h2 {
+  margin-top: 0;
+}
+.pw-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+.pw-form button {
+  width: 100%;
+  margin-top: 12px;
+}

@@ -1,0 +1,29 @@
+.pw-checkout {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+}
+.checkout-box {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.checkout-box > div {
+  flex: 1;
+  min-width: 260px;
+}
+.checkout-box ul {
+  padding-left: 18px;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+.summary .primary {
+  width: 100%;
+}

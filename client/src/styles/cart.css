@@ -1,0 +1,36 @@
+.pw-cart {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+}
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+.cart-table th,
+.cart-table td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.cart-table input {
+  width: 66px;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.primary {
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 14px;
+}
