@@ -33,4 +33,75 @@ The backend is built using **Node.js and Express.js**, handling authentication, 
 
 ---
 
+2. Navigate to the Project Directory
+cd PizzaWeb
+
+3. Install Dependencies
+
+For both frontend and backend:
+
+cd client
+npm install
+
+cd ../server
+npm install
+
+4. Create a .env File in the Server Directory
+
+Add your environment variables:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+JWT_EXPIRES_IN=7d
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+
+5. Run the Application
+
+Start the backend:
+
+npm run server
+
+
+Start the frontend:
+
+npm run dev
+
+🧩 Folder Structure
+PizzaWeb/
+├── client/                # React Frontend
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/                # Node.js + Express Backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   ├── server.js
+│   └── package.json
+│
+├── .env
+├── README.md
+└── package.json
+
+🧠 Learning Outcome
+
+PizzaWeb demonstrates a complete e-commerce workflow — from dynamic menu management to secure online payments — highlighting core MERN stack development, RESTful API design, and real-world payment integration skills.
+This project showcases practical experience in full-stack development, performance optimization, and deployment readiness.
+
+🧑‍💻 Author
+
+Sumit Dhamane
+Full Stack MERN Developer | Software Engineer | Open Source Contributor
+LinkedIn
+ | GitHub
+
+ 
+---
+
+Would you like me to include **deployment instructions** (for example, hosting frontend on Vercel and backend on Render or Railway)?  
+I can also add a **live demo section** if you plan to deploy it.
+
 ## 🏗️
